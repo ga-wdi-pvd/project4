@@ -20,7 +20,7 @@ Your app must:
 
 ---
 
-### Pre-employment checklist
+### Pre-deployment checklist
 
 - [ ] Add the deployed URL to repo settings
 - [ ] Add a readme with:
@@ -37,14 +37,17 @@ Your app must:
 
 * **Don’t get too caught up in too many awesome features** – simple is always better. Build something impressive that does one thing well.
 * **Design first.** Planning with user stories & wireframes before writing code means you won't get distracted changing your mind – you'll know what to build, and you can spend your time wisely by just building it.
-* **Don’t hesitate to write throwaway code** to solve short term problems.
-* **Read the docs for whatever technologies / frameworks / API’s you use**.
-* **Write your code DRY** and **build your APIs RESTful**.
-* **Commit early, commit often.** Don’t be afraid to break something because you can always go back in time to a previous version.
-* **Keep user stories small and well-defined**, and remember – user stories focus on what a user needs, not what development tasks need accomplishing.
-* **Write code another developer wouldn't have to ask you about**. Do your naming conventions make sense? Would another developer be able to look at your app and understand what everything is?
+* **Don’t hesitate to write throwaway code** to solve short term problems. But don't change horses in the middle of the steam. Come to use if you are having doubts before restarting your project.
+* **Read the docs for whatever technologies / frameworks / API’s you use**. Use conventions and follow best practices.
+* **Write your code DRY** 
+* **build your APIs RESTful**
+* **Commit early, commit often.** Don’t be afraid to break something because you can always go back in time to a previous version. 
+* ** Write excellent commit messages.** Don't be afraid to use git's interactive rebasing to clean up messages, combine commits, and be as useful as possible. Those viewing your source code WILL look at your commit messages.
+* **Keep user stories small and well-defined**, and remember – user stories focus on what a user needs, not what development tasks need accomplishing. Use Trello or Github's project management tools to stay organized and on track.
+* **Write code another developer wouldn't have to ask you about**. Do your naming conventions make sense? Would another developer be able to look at your app and understand what everything is? If you were working with a partner, would they be very happy to work with you?
 * **Make it all well-formatted.** Are you indenting, consistently? Can we find the start and end of every div, curly brace, etc?
-* **Comment your code.** Will someone understand what is going on in each block or function? Even if it's obvious, explaining the what & why means someone else can pick it up and get it.
+* **Pass HTML5, CSS and JS linters** Write well formatted, standards-based code. Know when it's OK to break the rules (custom Angular directives within your html for one...)
+* **Comment your code.** Will someone understand what is going on in each block or function? Even if it's obvious, explaining the what & why means someone else can pick it up and get it. Even better, write code that comments itself (function fetchDataFromTwitter() // needs no further documentation or comments...)
 * **Write pseudocode before you write actual code.** Thinking through the logic of something helps.
 
 ---
@@ -56,6 +59,9 @@ Think of how helpful sites like Quora & StackOverflow are. Maybe there's some ot
 
 ##### Car Repair Log
 Keep up with your vehicle as you commute every day to your final weeks of WDI save things like mileage, last inspect, oil changes, and maybe even receipts & important document you need to have backed up.
+
+##### Tipping Point
+Demand-driven events could really reduce waste if the event only occurs when sufficient demand is present. Imagine that an event or action only happens with enough user support. Fans demand a band play, GA students demand that we learn Angular 2, politicians hold a town hall meeting, etc.
 
 ##### Email-like Messages
 Imagine a realtime messaging client, but with private messages, an inbox, unread messages, and who knows what else. This is your chance to re-invent email as we know it.
@@ -78,7 +84,7 @@ Support will be provided exclusively through issues submitted to this repo. Plea
 
 ### Presentations
 
-Presentations will be done in a science fair format on Friday, December 2nd. Stay tuned for a schedule.
+Presentations will be done in a science fair format on Friday, February 10th. Stay tuned for a schedule.
 
 ### Project Feedback + Evaluation
 
