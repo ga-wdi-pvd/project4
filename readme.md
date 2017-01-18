@@ -42,7 +42,7 @@ Your app must:
 * **Write your code DRY** 
 * **build your APIs RESTful**
 * **Commit early, commit often.** Don’t be afraid to break something because you can always go back in time to a previous version. 
-* ** Write excellent commit messages.** Don't be afraid to use git's interactive rebasing to clean up messages, combine commits, and be as useful as possible. Those viewing your source code WILL look at your commit messages.
+* **Write excellent commit messages.** Don't be afraid to use git's interactive rebasing to clean up messages, combine commits, and be as useful as possible. Those viewing your source code WILL look at your commit messages.
 * **Keep user stories small and well-defined**, and remember – user stories focus on what a user needs, not what development tasks need accomplishing. Use Trello or Github's project management tools to stay organized and on track.
 * **Write code another developer wouldn't have to ask you about**. Do your naming conventions make sense? Would another developer be able to look at your app and understand what everything is? If you were working with a partner, would they be very happy to work with you?
 * **Make it all well-formatted.** Are you indenting, consistently? Can we find the start and end of every div, curly brace, etc?
