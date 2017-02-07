@@ -25,7 +25,8 @@ class RoastsController < ApplicationController
   # POST /roasts
   # POST /roasts.json
   def create
-    @roast = current_user.roasts.new(roast_params)
+    @user = current_user
+    @roast = @user.roasts.build(roast_params)
 
     respond_to do |format|
       if @roast.save
