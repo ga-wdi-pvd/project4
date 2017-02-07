@@ -1,7 +1,7 @@
 class RoastsController < ApplicationController
   before_action :authenticate_user!
   before_action :set_roast, only: [:show, :edit, :update, :destroy]
-  
+
   # GET /roasts
   # GET /roasts.json
   def index
@@ -25,7 +25,7 @@ class RoastsController < ApplicationController
   # POST /roasts
   # POST /roasts.json
   def create
-    @roast = Roast.new(roast_params)
+    @roast = current_user.roasts.new(roast_params)
 
     respond_to do |format|
       if @roast.save
@@ -70,6 +70,6 @@ class RoastsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def roast_params
-      params.require(:roast).permit(:body)
+      params.require(:roast).permit(:body, :user_id)
     end
 end

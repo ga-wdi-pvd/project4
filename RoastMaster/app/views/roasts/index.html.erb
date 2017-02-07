@@ -6,6 +6,7 @@
   <thead>
     <tr>
       <th>Body</th>
+      <th>User</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -14,6 +15,7 @@
     <% @roasts.each do |roast| %>
       <tr>
         <td><%= roast.body %></td>
+        <td><%= roast.user %></td>
         <td><%= link_to 'Show', roast %></td>
         <td><%= link_to 'Edit', edit_roast_path(roast) %></td>
         <td><%= link_to 'Destroy', roast, method: :delete, data: { confirm: 'Are you sure?' } %></td>

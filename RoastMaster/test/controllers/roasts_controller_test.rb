@@ -17,7 +17,7 @@ class RoastsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create roast" do
     assert_difference('Roast.count') do
-      post roasts_url, params: { roast: { body: @roast.body } }
+      post roasts_url, params: { roast: { body: @roast.body, user_id: @roast.user_id } }
     end
 
     assert_redirected_to roast_url(Roast.last)
@@ -34,7 +34,7 @@ class RoastsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update roast" do
-    patch roast_url(@roast), params: { roast: { body: @roast.body } }
+    patch roast_url(@roast), params: { roast: { body: @roast.body, user_id: @roast.user_id } }
     assert_redirected_to roast_url(@roast)
   end
 
