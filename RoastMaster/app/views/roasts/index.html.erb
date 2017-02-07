@@ -1,4 +1,41 @@
-<p id="notice"><%= notice %></p>
+<header>
+
+  <div class="nav navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"            data-target="#example">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+<a href="/roasts" class="navbar-brand navbar-left">RoastMaster</a>
+        <div class="collapse navbar-collapse" id="example">
+          <ul class="nav navbar-nav">
+            <li><a href="#"><% if current_user %>
+                  Hello, <%= current_user.email %> <%= link_to "Sign_out", destroy_user_session_path, :method => 'delete' %></
+                <% else %>
+            <li><a href="#"><%= link_to "login", new_user_session_path %>
+                <% end %></a></li>
+          </ul>
+<br>
+<form class="navbar-form navbar-right" role="search">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Search">
+  </div>
+  <button type="submit" class="btn btn-primary">Search</button>
+</form>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+<p>
+HEADER
+</p>
+</header>
 
 <h1>Roasts</h1>
 
