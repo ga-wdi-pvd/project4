@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
  .navStyle {
    height: 75px;
    border-style: solid;
@@ -46,7 +47,7 @@ body {
    border-color: lightblue;
 
  }
- h2 {
-    font-family: sweet sensations personal use;
+ .h2 {
+    font-family: amarillo;
     font-size: 60px;
  }
