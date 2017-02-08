@@ -13,7 +13,13 @@
  *= require_tree .
  *= require_self
  */
-
+ .navStyle {
+   height: 75px;
+   border-style: solid;
+ }
+body {
+  background-image: url(http://eskipaper.com/images/minimal-white-wallpaper-1.jpg);
+}
  .fieldDiv {
    justify-content: center;
    text-align: center;

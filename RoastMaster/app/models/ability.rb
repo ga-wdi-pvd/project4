@@ -2,6 +2,7 @@ class Ability
   include CanCan::Ability
 
   def initialize(user)
+    user.has_role?(:admin)
 
 
       # can :update, Roast do |roast|
