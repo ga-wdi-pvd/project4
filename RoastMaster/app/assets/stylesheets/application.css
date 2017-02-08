@@ -47,7 +47,13 @@ body {
    border-color: lightblue;
 
  }
- .h2 {
+ #signupH2, #loginH2 {
     font-family: amarillo;
-    font-size: 60px;
+    font-size: 40px;
+ }
+ #loginTitle {
+   font-family: air millhouse outline;
+   font-size: 70px;
+   border-style: solid;
+   text-shadow: 2px 2px red;
  }
